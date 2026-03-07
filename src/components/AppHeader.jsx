@@ -1,4 +1,4 @@
-import headerLogo from "../assets/img/dc-logo.png";
+import HeaderLogo from "../assets/img/dc-logo.png";
 
 export default function AppHeader() {
   return (
@@ -6,7 +6,7 @@ export default function AppHeader() {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <img src={headerLogo} alt="" />
+            <img src={HeaderLogo} alt="" />
           </a>
           <button
             className="navbar-toggler"
