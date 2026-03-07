@@ -1,5 +1,18 @@
 @import url('bootstrap');
 
+:root{
+  --primary-color: #0282f9;
+  --secondary-color: #1c1c1c;
+  --tertiary-color: #303030;
+  --nav-text: #646767;
+}
+
 body {
   font-family: 'Open Sans Variable', sans-serif;
+}
+
+.custom_text {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--nav-text);
 }
