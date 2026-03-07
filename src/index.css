@@ -28,3 +28,31 @@ main {
 .services_text{
   font-size: 0.8rem;
 }
+
+.bkg_img{
+  background-image: url('./assets/img/footer-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+footer {
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.logo_footer {
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  transform: translateY(-50%);
+  width: 650px;
+  opacity: 0.9;
+}
+
+.footer_text{
+  color: var(--nav-text);
+  font-weight: 500;
+}
