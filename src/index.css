@@ -16,3 +16,7 @@ body {
   font-weight: 700;
   color: var(--nav-text);
 }
+
+main {
+  background-color: var(--secondary-color);
+}
