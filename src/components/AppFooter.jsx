@@ -18,32 +18,32 @@ export default function AppFooter() {
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Comics
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Movies
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        TV
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Games
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Videos
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        News
                       </a>
                     </li>
                   </ul>
@@ -66,57 +66,57 @@ export default function AppFooter() {
                   <ul className="p-0">
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Terms Of Use
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Privacy policy (New)
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Ad Choices
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Advertising
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Jobs
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Subscription
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Talent Workshops
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        CPSC Certificates
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Ratings
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Shop Help
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        Contact Us
                       </a>
                     </li>
                   </ul>
@@ -126,27 +126,27 @@ export default function AppFooter() {
                   <ul className="p-0">
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        DC
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        MAD Magazine
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        DC Kids
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        DC Universe
                       </a>
                     </li>
                     <li className="list-unstyled">
                       <a href="" className="nav-link footer_text">
-                        Characters
+                        DC Power Visa
                       </a>
                     </li>
                   </ul>
