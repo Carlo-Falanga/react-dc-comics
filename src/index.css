@@ -20,3 +20,11 @@ body {
 main {
   background-color: var(--secondary-color);
 }
+
+.services_img{
+  max-width: 50px;
+}
+
+.services_text{
+  font-size: 0.8rem;
+}
