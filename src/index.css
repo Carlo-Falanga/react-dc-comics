@@ -34,14 +34,13 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-}
-
-footer {
   position: relative;
   overflow: hidden;
 }
 
-
+.top_index{
+  z-index: 1;
+}
 
 .logo_footer {
   position: absolute;
@@ -55,4 +54,8 @@ footer {
 .footer_text{
   color: var(--nav-text);
   font-weight: 500;
+}
+
+.bg_footer{
+  background-color: var(--tertiary-color);
 }
