@@ -169,19 +169,20 @@ export default function AppMain() {
               <div className="position-relative">
                 <span className="text-uppercase bg-primary px-4 py-2 text-white position-absolute fs-5 custom_text">Current series</span>
               </div>
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6">
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 gy-5">
 
                 {
                 comics.map(comic => (
 
-                  <div className="col gy-4" key={comic.id}>
-                    <img className="series_img w-100 h-75 object-fit-cover" src={comic.thumb} alt="" />
+                  <div className="col" key={comic.id}>
+                    <img className="series_img w-100 object-fit-cover" src={comic.thumb} alt="" />
                     <div className="text-uppercase text-white pt-3">{comic.title}</div>
                   </div>
                 ))
                 }
-
-                  
+                </div>
+                <div className="text-center">
+                <div className="btn btn-primary text-white rounded-0 text-uppercase mt-5 text-center px-5 fw-bold">Load more</div>
                 </div>
             </div>
         </main>
