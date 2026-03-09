@@ -28,7 +28,7 @@ main {
   object-position: top;
 }
 
-.custom_text{
+.custom_text_series{
   bottom: 50px;
   transform: translateY(15%);
 }

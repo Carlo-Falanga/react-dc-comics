@@ -167,7 +167,7 @@ export default function AppMain() {
             </div>
             <div className="container mt-3 py-5">
               <div className="position-relative">
-                <span className="text-uppercase bg-primary px-4 py-2 text-white position-absolute fs-5 custom_text">Current series</span>
+                <span className="text-uppercase bg-primary px-4 py-2 text-white position-absolute fs-5 custom_text_series fw-bold">Current series</span>
               </div>
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 gy-5">
 
