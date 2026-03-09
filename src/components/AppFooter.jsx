@@ -1,5 +1,142 @@
 import LogoFooter from "../assets/img/dc-logo-bg.png";
 
+const footerListDcComics = [
+  {
+    id: 1,
+    url: "#",
+    text: "Characters",
+  },
+  {
+    id: 2,
+    url: "#",
+    text: "Comics",
+  },
+  {
+    id: 3,
+    url: "#",
+    text: "Movies",
+  },
+  {
+    id: 4,
+    url: "#",
+    text: "Tv",
+  },
+  {
+    id: 5,
+    url: "#",
+    text: "Games",
+  },
+  {
+    id: 6,
+    url: "#",
+    text: "Videos",
+  },
+  {
+    id: 7,
+    url: "#",
+    text: "news",
+  },
+];
+
+const footerListShop = [
+  {
+    id: 1,
+    url: "#",
+    text: "Shop DC",
+  },
+  {
+    id: 2,
+    url: "#",
+    text: "Shop DC Collectibles",
+  },
+];
+
+const footerListDc = [
+  {
+    id: 1,
+    url: "#",
+    text: "Terms Of Use",
+  },
+  {
+    id: 2,
+    url: "#",
+    text: "Privacy policy (New)",
+  },
+  {
+    id: 3,
+    url: "#",
+    text: "Ad Choices",
+  },
+  {
+    id: 4,
+    url: "#",
+    text: "Advertising",
+  },
+  {
+    id: 5,
+    url: "#",
+    text: "Jobs",
+  },
+  {
+    id: 6,
+    url: "#",
+    text: "Subscription",
+  },
+  {
+    id: 7,
+    url: "#",
+    text: "Talent Workshops",
+  },
+  {
+    id: 8,
+    url: "#",
+    text: "CPSC Certificates",
+  },
+  {
+    id: 9,
+    url: "#",
+    text: "Ratings",
+  },
+  {
+    id: 10,
+    url: "#",
+    text: "Shop help",
+  },
+  {
+    id: 11,
+    url: "#",
+    text: "Contact Us",
+  },
+];
+
+const footerListSites = [
+  {
+    id: 1,
+    url: "#",
+    text: "DC",
+  },
+  {
+    id: 2,
+    url: "#",
+    text: "MAD Magazine",
+  },
+  {
+    id: 3,
+    url: "#",
+    text: "DC Kids",
+  },
+  {
+    id: 4,
+    url: "#",
+    text: "DC Universe",
+  },
+  {
+    id: 5,
+    url: "#",
+    text: "DC Power Visa",
+  },
+];
+
 export default function AppFooter() {
   return (
     <footer>
@@ -11,144 +148,47 @@ export default function AppFooter() {
                 <div className="col">
                   <h3 className="text-uppercase pb-2">Dc Comics</h3>
                   <ul className="p-0">
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Characters
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Comics
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Movies
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        TV
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Games
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Videos
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        News
-                      </a>
-                    </li>
+                    {footerListDcComics.map((item) => (
+                      <li className="list-unstyled" key={item.id}>
+                        <a href={item.url} className="nav-link footer_text">
+                          {item.text}
+                        </a>
+                      </li>
+                    ))}
                   </ul>
                   <h3 className="text-uppercase pb-2">Shop</h3>
                   <ul className="p-0">
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Shop DC
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Shop DC Collectibles
-                      </a>
-                    </li>
+                    {footerListShop.map((item) => (
+                      <li className="list-unstyled" key={item.id}>
+                        <a href={item.url} className="nav-link footer_text">
+                          {item.text}
+                        </a>
+                      </li>
+                    ))}
                   </ul>
                 </div>
                 <div className="col">
                   <h3 className="text-uppercase pb-2">Dc</h3>
                   <ul className="p-0">
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Terms Of Use
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Privacy policy (New)
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Ad Choices
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Advertising
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Jobs
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Subscription
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Talent Workshops
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        CPSC Certificates
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Ratings
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Shop Help
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        Contact Us
-                      </a>
-                    </li>
+                    {footerListDc.map((item) => (
+                      <li className="list-unstyled" key={item.id}>
+                        <a href={item.url} className="nav-link footer_text">
+                          {item.text}
+                        </a>
+                      </li>
+                    ))}
                   </ul>
                 </div>
                 <div className="col">
                   <h3 className="text-uppercase pb-2">Sites</h3>
                   <ul className="p-0">
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        DC
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        MAD Magazine
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        DC Kids
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        DC Universe
-                      </a>
-                    </li>
-                    <li className="list-unstyled">
-                      <a href="" className="nav-link footer_text">
-                        DC Power Visa
-                      </a>
-                    </li>
+                    {footerListSites.map((item) => (
+                      <li className="list-unstyled">
+                        <a href={item.url} className="nav-link footer_text">
+                          {item.text}
+                        </a>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
