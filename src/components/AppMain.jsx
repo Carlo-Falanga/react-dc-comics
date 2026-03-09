@@ -182,7 +182,7 @@ export default function AppMain() {
                 }
                 </div>
                 <div className="text-center">
-                <div className="btn btn-primary text-white rounded-0 text-uppercase mt-5 text-center px-5 fw-bold">Load more</div>
+                <div className="btn btn-primary text-white rounded-0 text-uppercase mt-5 mb-3 text-center px-5 fw-bold">Load more</div>
                 </div>
             </div>
         </main>

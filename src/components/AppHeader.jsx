@@ -91,7 +91,7 @@ export default function AppHeader() {
             {
               navbar.map(item => (
 
-              <li className="nav-item px-3" key={item.id}>
+              <li className="nav-item ps-3" key={item.id}>
                 <a className={`nav-link text-uppercase custom_text ${item.current ? 'active text-primary' : ''}`}  aria-current="page" href={item.url}>
                   {item.text}
                 </a>
