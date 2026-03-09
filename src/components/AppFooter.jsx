@@ -183,7 +183,7 @@ export default function AppFooter() {
                   <h3 className="text-uppercase pb-2">Sites</h3>
                   <ul className="p-0">
                     {footerListSites.map((item) => (
-                      <li className="list-unstyled">
+                      <li className="list-unstyled" key={item.id}>
                         <a href={item.url} className="nav-link footer_text">
                           {item.text}
                         </a>
