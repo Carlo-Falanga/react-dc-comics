@@ -165,8 +165,13 @@ export default function AppMain() {
             <div>
                 <img className="jumbo" src={Jumbo} alt=""/>
             </div>
-            <div className="container mt-3">
-                <div className="text-white fw-bolder py-5">Content goes here</div>
+            <div className="container mt-3 py-5">
+              <div className="position-relative">
+                <span className="text-uppercase bg-primary px-4 py-2 text-white position-absolute fs-5 custom_text">Current series</span>
+              </div>
+                <div className="row">
+                  <div className="col"></div>
+                </div>
             </div>
         </main>
     )

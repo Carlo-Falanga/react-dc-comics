@@ -22,10 +22,15 @@ main {
 }
 
 .jumbo{
-  height: 300px;
+  max-height: 500px;
   width: 100%;
   object-fit: cover;
   object-position: top;
+}
+
+.custom_text{
+  bottom: 50px;
+  transform: translateY(15%);
 }
 
 .services_img{
