@@ -8,7 +8,7 @@ export default function AppServices() {
   return (
     <section className="bg-primary">
       <div className="container">
-        <div className="row py-5">
+        <div className="row gy-5 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 py-5">
           <div className="col d-flex align-items-center justify-content-center">
             <img className="services_img" src={DigitalComicsImg} alt="" />
             <span className="text-white ps-3 text-uppercase services_text">Digital Comics</span>
