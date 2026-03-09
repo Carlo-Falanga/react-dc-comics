@@ -202,13 +202,13 @@ export default function AppFooter() {
 
       <section className="bg_footer">
         <div className="container py-5">
-          <div className="row">
-            <div className="col">
+          <div className="row row-cols-1 row-cols-lg-2 gy-5">
+            <div className="col text-center text-lg-start">
               <button className="btn btn-outline-primary rounded-0 text-uppercase text-white">
                 Sing-up now!
               </button>
             </div>
-            <div className="col d-flex justify-content-end align-items-center gap-3">
+            <div className="col d-flex justify-content-center  justify-content-lg-end align-items-center gap-3">
               <span className="text-primary fw-bold text-uppercase">
                 Follow us
               </span>
