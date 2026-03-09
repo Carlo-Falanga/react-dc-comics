@@ -33,6 +33,10 @@ main {
   transform: translateY(15%);
 }
 
+.series_img{
+  object-position: top;
+}
+
 .services_img{
   max-width: 50px;
 }
