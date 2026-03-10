@@ -180,11 +180,75 @@ const comics = [
   },
 ];
 
+const navbar = [
+  {
+    id: 1,
+    url: '#',
+    text: 'Characters',
+    current: false,
+  },
+    {
+    id: 2,
+    url: '#',
+    text: 'Comics',
+    current: true,
+  },
+    {
+    id: 3,
+    url: '#',
+    text: 'Movies',
+    current: false,
+  },
+    {
+    id: 4,
+    url: '#',
+    text: 'Tv',
+    current: false,
+  },
+    {
+    id: 5,
+    url: '#',
+    text: 'Games',
+    current: false,
+  },
+    {
+    id: 6,
+    url: '#',
+    text: 'Collectibles',
+    current: false,
+  },
+    {
+    id: 7,
+    url: '#',
+    text: 'Videos',
+    current: false,
+  },
+    {
+    id: 8,
+    url: '#',
+    text: 'Fans',
+    current: false,
+  },
+    {
+    id: 9,
+    url: '#',
+    text: 'News',
+    current: false,
+  },
+    {
+    id: 10,
+    url: '#',
+    text: 'Shop',
+    current: false,
+  },
+
+]
+
 function App() {
 
   return (
     <>
-     <AppHeader />
+     <AppHeader navbar={navbar} />
      <AppMain comics={comics} />
      <AppServices />
      <AppFooter />
