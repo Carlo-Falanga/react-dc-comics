@@ -3,7 +3,72 @@ import AppHeader from "./components/AppHeader"
 import AppMain from "./components/AppMain"
 import AppServices from "./components/AppServices"
 
+// Header Array
+const navbar = [
+  {
+    id: 1,
+    url: '#',
+    text: 'Characters',
+    current: false,
+  },
+    {
+    id: 2,
+    url: '#',
+    text: 'Comics',
+    current: true,
+  },
+    {
+    id: 3,
+    url: '#',
+    text: 'Movies',
+    current: false,
+  },
+    {
+    id: 4,
+    url: '#',
+    text: 'Tv',
+    current: false,
+  },
+    {
+    id: 5,
+    url: '#',
+    text: 'Games',
+    current: false,
+  },
+    {
+    id: 6,
+    url: '#',
+    text: 'Collectibles',
+    current: false,
+  },
+    {
+    id: 7,
+    url: '#',
+    text: 'Videos',
+    current: false,
+  },
+    {
+    id: 8,
+    url: '#',
+    text: 'Fans',
+    current: false,
+  },
+    {
+    id: 9,
+    url: '#',
+    text: 'News',
+    current: false,
+  },
+    {
+    id: 10,
+    url: '#',
+    text: 'Shop',
+    current: false,
+  },
 
+]
+
+// Main Arrays
 const comics = [
   {
     id: 1,
@@ -180,69 +245,140 @@ const comics = [
   },
 ];
 
-const navbar = [
+// Footer Arrays
+const footerListDcComics = [
   {
     id: 1,
-    url: '#',
-    text: 'Characters',
-    current: false,
+    url: "#",
+    text: "Characters",
   },
-    {
+  {
     id: 2,
-    url: '#',
-    text: 'Comics',
-    current: true,
+    url: "#",
+    text: "Comics",
   },
-    {
+  {
     id: 3,
-    url: '#',
-    text: 'Movies',
-    current: false,
+    url: "#",
+    text: "Movies",
   },
-    {
+  {
     id: 4,
-    url: '#',
-    text: 'Tv',
-    current: false,
+    url: "#",
+    text: "Tv",
   },
-    {
+  {
     id: 5,
-    url: '#',
-    text: 'Games',
-    current: false,
+    url: "#",
+    text: "Games",
   },
-    {
+  {
     id: 6,
-    url: '#',
-    text: 'Collectibles',
-    current: false,
+    url: "#",
+    text: "Videos",
   },
-    {
+  {
     id: 7,
-    url: '#',
-    text: 'Videos',
-    current: false,
+    url: "#",
+    text: "news",
   },
-    {
+];
+const footerListShop = [
+  {
+    id: 1,
+    url: "#",
+    text: "Shop DC",
+  },
+  {
+    id: 2,
+    url: "#",
+    text: "Shop DC Collectibles",
+  },
+];
+const footerListDc = [
+  {
+    id: 1,
+    url: "#",
+    text: "Terms Of Use",
+  },
+  {
+    id: 2,
+    url: "#",
+    text: "Privacy policy (New)",
+  },
+  {
+    id: 3,
+    url: "#",
+    text: "Ad Choices",
+  },
+  {
+    id: 4,
+    url: "#",
+    text: "Advertising",
+  },
+  {
+    id: 5,
+    url: "#",
+    text: "Jobs",
+  },
+  {
+    id: 6,
+    url: "#",
+    text: "Subscription",
+  },
+  {
+    id: 7,
+    url: "#",
+    text: "Talent Workshops",
+  },
+  {
     id: 8,
-    url: '#',
-    text: 'Fans',
-    current: false,
+    url: "#",
+    text: "CPSC Certificates",
   },
-    {
+  {
     id: 9,
-    url: '#',
-    text: 'News',
-    current: false,
+    url: "#",
+    text: "Ratings",
   },
-    {
+  {
     id: 10,
-    url: '#',
-    text: 'Shop',
-    current: false,
+    url: "#",
+    text: "Shop help",
   },
-
-]
+  {
+    id: 11,
+    url: "#",
+    text: "Contact Us",
+  },
+];
+const footerListSites = [
+  {
+    id: 1,
+    url: "#",
+    text: "DC",
+  },
+  {
+    id: 2,
+    url: "#",
+    text: "MAD Magazine",
+  },
+  {
+    id: 3,
+    url: "#",
+    text: "DC Kids",
+  },
+  {
+    id: 4,
+    url: "#",
+    text: "DC Universe",
+  },
+  {
+    id: 5,
+    url: "#",
+    text: "DC Power Visa",
+  },
+];
 
 function App() {
 
@@ -251,7 +387,7 @@ function App() {
      <AppHeader navbar={navbar} />
      <AppMain comics={comics} />
      <AppServices />
-     <AppFooter />
+     <AppFooter footerListDcComics={footerListDcComics} footerListShop={footerListShop} footerListDc={footerListDc} footerListSites={footerListSites} />
     </>
   )
 }
